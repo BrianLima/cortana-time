@@ -9,9 +9,9 @@ using System.Resources;
 [assembly: AssemblyTitle("Cortana, time")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Krystian Kościelniak")]
 [assembly: AssemblyProduct("Cortana, time")]
-[assembly: AssemblyCopyright("Krystian Kościelniak 2014")]
+[assembly: AssemblyCopyright("Krystian Kościelniak")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
