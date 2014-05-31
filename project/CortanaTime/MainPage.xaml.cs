@@ -24,15 +24,14 @@ namespace CortanaTime
         {
             InitializeComponent();
 
-            
-            
-
             // Sample code to localize the ApplicationBar
             BuildLocalizedApplicationBar();
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            responseTextBlock.Text = ResponseGenerator.GenerateTimeString();
+
             // if Cortana opened the app
             if (e.NavigationMode == NavigationMode.New)
             {
@@ -51,7 +50,7 @@ namespace CortanaTime
             }
             // if we navigated to the app by resume from suspension etc.
             else {}
-            responseTextBlock.Text = ResponseGenerator.GenerateTimeString();
+            
             base.OnNavigatedTo(e);
         }
 
@@ -93,7 +92,8 @@ namespace CortanaTime
                     responseTextBlock.Text = ResponseGenerator.GenerateTimeString();
                     break;
                 case "WhatDateIsIt":
-                    MessageBox.Show("Date!");
+                    Synthesize(ResponseGenerator.GetDateString());
+                    responseTextBlock.Text = ResponseGenerator.GetDateString();
                     break;
             }
         }
