@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.0">
+  <CommandSet xml:lang="en-US">
+    <CommandPrefix>Cortana</CommandPrefix>
+    <Example> what time is it? </Example>
+
+    <Command Name="WhatTimeIsIt">
+      <Example> what time is it? </Example>
+      <ListenFor> what time is it </ListenFor>
+      <ListenFor> what is the time </ListenFor>
+      <ListenFor> what's time is it </ListenFor>
+      <Feedback> Give me a second... </Feedback>
+      <Navigate />
+    </Command>
+
+    <Command Name="WhatDateIsIt">
+      <Example> what date is it? </Example>
+      <ListenFor> what date is it </ListenFor>
+      <ListenFor> what's the date </ListenFor>
+      <Feedback> One second please... </Feedback>
+      <Navigate />
+    </Command>
+  </CommandSet>
+</VoiceCommands>
