@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{2b55731b-13b9-42c4-abc9-9b65d3820d08}" Title="Cortana, time" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="CortanaTime author" Description="Sample description" SDOptOut="false" BackUpOptOut="false" Publisher="CortanaTime" PublisherID="{65e4d8a1-ec22-4178-a6cc-f15daf01a382}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+  <App xmlns="" ProductID="{2b55731b-13b9-42c4-abc9-9b65d3820d08}" Title="Cortana, time" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="CortanaTime author" Description="This app allows you to ask Cortana about current time." SDOptOut="false" BackUpOptOut="false" Publisher="CortanaTime" PublisherID="{65e4d8a1-ec22-4178-a6cc-f15daf01a382}">
+    <IconPath IsRelative="true" IsResource="false">tile2.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_SPEECH_RECOGNITION" />
       <Capability Name="ID_CAP_NETWORKING" />
@@ -13,9 +13,9 @@
     <Tokens>
       <PrimaryToken TokenID="CortanaTimeToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">tile2.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">tile.png</BackgroundImageURI>
           <Title>Cortana, time</Title>
           <BackContent>
           </BackContent>
