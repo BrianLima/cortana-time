@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{2b55731b-13b9-42c4-abc9-9b65d3820d08}" Title="Cortana, time" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="CortanaTime author" Description="This app allows you to ask Cortana about current time." SDOptOut="false" BackUpOptOut="false" Publisher="CortanaTime" PublisherID="{65e4d8a1-ec22-4178-a6cc-f15daf01a382}">
+  <App xmlns="" ProductID="{2b55731b-13b9-42c4-abc9-9b65d3820d08}" Title="Cortana, time" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Krystian Kościelniak" Description="This app allows you to ask Cortana about current time." SDOptOut="false" BackUpOptOut="false" Publisher="Krystian Kościelniak" PublisherID="{65e4d8a1-ec22-4178-a6cc-f15daf01a382}">
     <IconPath IsRelative="true" IsResource="false">tile2.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_SPEECH_RECOGNITION" />
